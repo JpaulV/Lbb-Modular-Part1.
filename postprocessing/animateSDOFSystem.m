@@ -18,9 +18,9 @@ function animateSDOFSystem(prob_params, u, total_anim_time)
     % Plot initial state
     mass_1 = plot(0, 0, 'ko', 'MarkerSize', 10, 'MarkerFaceColor', 'k');
     text(0, 0.2, 'm1', 'HorizontalAlignment', 'center');
-    mass_2 = plot(3, 0, 'bo', 'MarkerSize', 10, 'MarkerFaceColor', 'b');
+    mass_2 = plot(3, 0, 'bo', 'MarkerSize', 10, 'MarkerFaceColor', 'r');
     text(3, 0.2, 'm2', 'HorizontalAlignment', 'center');
-    mass_3 = plot(6, 0, 'ro', 'MarkerSize', 10, 'MarkerFaceColor', 'r');
+    mass_3 = plot(6, 0, 'ro', 'MarkerSize', 10, 'MarkerFaceColor', 'b');
     text(6, 0.2, 'm3', 'HorizontalAlignment', 'center');
 
     % Spring creation function
